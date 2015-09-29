@@ -14,6 +14,7 @@
 		FCD955161BB654810087AE7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD955151BB654810087AE7B /* Images.xcassets */; };
 		FCD955191BB654810087AE7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD955171BB654810087AE7B /* LaunchScreen.xib */; };
 		FCD955251BB654820087AE7B /* SqliteTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD955241BB654820087AE7B /* SqliteTestTests.m */; };
+		FCD955311BB661620087AE7B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD955301BB661620087AE7B /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FCD9551E1BB654820087AE7B /* SqliteTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD955231BB654820087AE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD955241BB654820087AE7B /* SqliteTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteTestTests.m; sourceTree = "<group>"; };
+		FCD955301BB661620087AE7B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD955311BB661620087AE7B /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		FCD954FC1BB654810087AE7B = {
 			isa = PBXGroup;
 			children = (
+				FCD955301BB661620087AE7B /* libsqlite3.dylib */,
 				FCD955071BB654810087AE7B /* SqliteTest */,
 				FCD955211BB654820087AE7B /* SqliteTestTests */,
 				FCD955061BB654810087AE7B /* Products */,
